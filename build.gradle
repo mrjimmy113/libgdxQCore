@@ -10,5 +10,7 @@ repositories {
 }
 
 dependencies {
-    // Add your deps here if needed
+    implementation "com.badlogicgames.gdx:gdx-tools:$gdxVersion"
+    api "com.badlogicgames.gdx:gdx:$gdxVersion"
+    implementation group: 'com.opencsv', name: 'opencsv', version: '3.10'
 }
