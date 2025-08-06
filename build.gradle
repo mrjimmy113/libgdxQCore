@@ -1,0 +1,14 @@
+plugins {
+    id 'java-library'
+}
+
+group = 'com.github.mrjimmy113'
+version = '0.0.1'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // Add your deps here if needed
+}
